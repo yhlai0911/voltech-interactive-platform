@@ -254,6 +254,22 @@
       }
     }
   },
+  "resources": {
+    "title": "Course Materials",
+    "subtitle": "Slides, textbook, supplements, and exercises",
+    "week": "Week",
+    "fullTextbook": "Full Textbook",
+    "lang": {
+      "en": "English",
+      "zh": "繁體中文"
+    },
+    "tabs": {
+      "slides": "Slides",
+      "textbook": "Textbook",
+      "supplements": "Supplements",
+      "exercises": "Exercises"
+    }
+  },
   "localeSwitcher": {
     "en": "English",
     "zh": "繁體中文"

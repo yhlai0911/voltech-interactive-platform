@@ -254,6 +254,22 @@
       }
     }
   },
+  "resources": {
+    "title": "教學資源下載",
+    "subtitle": "課堂投影片、教科書、補充教材及習題",
+    "week": "Week",
+    "fullTextbook": "完整教科書",
+    "lang": {
+      "en": "English",
+      "zh": "繁體中文"
+    },
+    "tabs": {
+      "slides": "投影片",
+      "textbook": "教科書",
+      "supplements": "補充教材",
+      "exercises": "習題"
+    }
+  },
   "localeSwitcher": {
     "en": "English",
     "zh": "繁體中文"

@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { WEEKS } from "@/types";
+import ResourceDownloadSection from "@/components/ResourceDownloadSection";
 
 export default function HomePage() {
   const t = useTranslations();
@@ -117,18 +118,7 @@ export default function HomePage() {
       </section>
 
       {/* PDF Downloads */}
-      <section className="mb-16 text-center">
-        <h2 className="text-2xl font-bold text-[#1B3A5C] mb-4">
-          {t("home.courseMaterials")}
-        </h2>
-        <p className="text-gray-500 mb-6">{t("home.downloadDesc")}</p>
-        <Link
-          href="/pdf-collection"
-          className="inline-flex items-center gap-2 px-6 py-3 bg-[#1B3A5C] text-white rounded-xl hover:bg-[#2a4f7a] transition-colors shadow-md"
-        >
-          {t("home.downloadPDFs")}
-        </Link>
-      </section>
+      <ResourceDownloadSection />
 
       {/* Features */}
       <section className="grid grid-cols-1 md:grid-cols-4 gap-8">
