@@ -1,0 +1,261 @@
+{
+  "common": {
+    "week": "第",
+    "previous": "上一頁",
+    "next": "下一頁",
+    "continue": "繼續",
+    "back": "返回",
+    "home": "首頁",
+    "loading": "載入中...",
+    "error": "錯誤"
+  },
+  "nav": {
+    "brand": "VolTech",
+    "subtitle": "財務管理",
+    "aiTutor": "AI 助教",
+    "language": "語言"
+  },
+  "home": {
+    "title": "財務管理",
+    "subtitle": "波動率、風險與 AI",
+    "description": "一個互動式學習平台，帶你從報酬分配到機器學習，掌握金融風險衡量的核心技能。",
+    "author": "賴怡豪 \u00b7 大葉大學 \u00b7 2026 春季",
+    "meetCharacters": "認識角色",
+    "courseWeeks": "課程週次",
+    "courseMaterials": "課程教材",
+    "downloadDesc": "下載講義與補充教材 PDF",
+    "downloadPDFs": "下載 PDF",
+    "features": {
+      "lessons": {
+        "icon": "\ud83d\udcd6",
+        "title": "課程",
+        "desc": "結構化 120 分鐘教學流程，以故事驅動內容"
+      },
+      "formulas": {
+        "icon": "\ud83d\udcd0",
+        "title": "公式",
+        "desc": "互動式公式參考，附變數說明"
+      },
+      "quiz": {
+        "icon": "\u2705",
+        "title": "自我測驗",
+        "desc": "64 題選擇題，附詳細解說"
+      },
+      "tutor": {
+        "icon": "\ud83e\udd16",
+        "title": "AI 助教",
+        "desc": "與林博士對話，取得任何主題的個人化指導"
+      }
+    }
+  },
+  "characters": {
+    "drLin": { "name": "Dr. Lin", "role": "教授", "desc": "量化風險部門主管" },
+    "alex": { "name": "Alex Chen", "role": "初級分析師", "desc": "VolTech 的新進成員" },
+    "kenji": { "name": "Kenji", "role": "風控經理", "desc": "退休基金風險管理專家" },
+    "priya": { "name": "Priya", "role": "資料科學家", "desc": "機器學習與統計專家" },
+    "david": { "name": "David", "role": "資深主管", "desc": "合規與策略" },
+    "narrator": { "name": "旁白", "role": "", "desc": "故事引導者" }
+  },
+  "weeks": {
+    "1": { "title": "金融風險與報酬分配", "subtitle": "為何常態分配失效" },
+    "2": { "title": "衡量波動率", "subtitle": "多把尺，一個真相" },
+    "3": { "title": "波動率群聚與 GARCH", "subtitle": "馴服這頭野獸" },
+    "4": { "title": "非對稱波動率", "subtitle": "壞消息打擊更大" },
+    "5": { "title": "波動率預測", "subtitle": "水晶球" },
+    "6": { "title": "風險值（VaR）", "subtitle": "你可能虧多少？" },
+    "7": { "title": "VaR 回測", "subtitle": "信任但驗證" },
+    "8": { "title": "AI 在金融中的應用", "subtitle": "最後的疆界" }
+  },
+  "weekPage": {
+    "notAvailable": "課程尚未開放",
+    "beingPrepared": "第 {week} 週互動課程正在準備中",
+    "backToHome": "返回首頁",
+    "restart": "重新開始本週",
+    "classroomMode": "教室模式：與林博士互動教學",
+    "noQuiz": "尚無測驗題目",
+    "quizPreparing": "測驗題目正在準備中，請先複習課程內容。",
+    "noTeachingScript": "本區段尚無教學腳本",
+    "teachingPreparing": "教學資料正在準備中",
+    "readyForQuiz": "準備好測驗了嗎？",
+    "quizDesc": "{count} 題選擇題，選項隨機排列",
+    "startQuiz": "開始測驗",
+    "previousSection": "上一區段",
+    "minutes": "分鐘"
+  },
+  "modes": {
+    "self": "自學模式",
+    "class": "教室模式",
+    "quiz": "測驗"
+  },
+  "classroom": {
+    "moved": "教室模式已搬移",
+    "movedDesc": "教室模式現已整合至各週課程頁面中。請前往任一週次，使用模式選擇器切換至「教室」模式。",
+    "goHome": "回到首頁",
+    "lecturing": "講課中",
+    "speaking": "發言中",
+    "narrator": "旁白",
+    "quickCheck": "隨堂測驗",
+    "discussion": "討論",
+    "visual": "圖表",
+    "theory": "理論",
+    "teaching": "教學",
+    "step": "步驟",
+    "correct": "正確",
+    "skipAnimation": "跳過動畫",
+    "audioPlaying": "音頻播放中",
+    "isLecturing": "林博士正在講課...",
+    "isSpeaking": "{name} 正在發言...",
+    "lectureComplete": "講課完成",
+    "characterFinished": "{name} 發言結束",
+    "awaitingAnswer": "等待作答",
+    "isAsking": "林博士正在提問...",
+    "feedbackInProgress": "回饋中...",
+    "feedbackComplete": "回饋完成",
+    "discussionInProgress": "討論進行中...",
+    "discussionComplete": "討論完成",
+    "segmentComplete": "區段完成",
+    "showingVisual": "顯示圖表",
+    "correctAnswer": "正確！",
+    "notQuiteAnswer": "不太對",
+    "selectAnswer": "請選擇一個答案以繼續",
+    "nextSegment": "下一區段",
+    "endOfWeek": "本週結束",
+    "timesUp": "時間到！",
+    "perfectScore": "滿分！",
+    "segmentCompleteScore": "區段完成！{correct}/{total} 答對",
+    "excellentUnderstanding": "對本區段有出色的理解",
+    "goodWork": "做得好，繼續加油！",
+    "reviewConcepts": "建議複習本區段的重點概念",
+    "back": "返回",
+    "resume": "繼續",
+    "pause": "暫停",
+    "continue": "繼續"
+  },
+  "selfQuiz": {
+    "title": "第 {week} 週自我測驗",
+    "quizComplete": "測驗完成！",
+    "scoreLabel": "{score} / {total} 題答對",
+    "reviewSuggested": "建議複習：",
+    "perfectScore": "滿分！你已精通本週內容！",
+    "retake": "重新測驗",
+    "backToLesson": "返回課程",
+    "viewResults": "查看結果",
+    "unanswered": "尚有 {count} 題未作答",
+    "correctLabel": "正確！",
+    "incorrectLabel": "答錯了。"
+  },
+  "extraPractice": {
+    "title": "額外練習（{count} 題）",
+    "stats": "已作答 {answered}/{total} 題，{correct} 題正確",
+    "allDone": "全部完成！正確率：{pct}%（{correct}/{total}）"
+  },
+  "interactiveQuiz": {
+    "correct": "正確！",
+    "notQuite": "不太對——",
+    "continue": "繼續"
+  },
+  "lessonChat": {
+    "aiAssistant": "AI 助教",
+    "weekSegment": "第 {week} 週 - {segment}",
+    "clearChat": "清除對話",
+    "askAnything": "歡迎詢問任何關於這堂課的問題！",
+    "thinking": "思考中...",
+    "errorMsg": "抱歉，無法回答。{error}",
+    "placeholder": "輸入問題...（Enter 送出）",
+    "suggestions": {
+      "story": ["這個故事和主題有什麼關聯？", "可以解釋提到的概念嗎？"],
+      "lecture": ["可以更簡單地解釋嗎？", "可以舉一個實際例子嗎？", "這個公式是怎麼推導的？"],
+      "demo": ["這個圖表顯示了什麼？", "我應該怎麼解讀結果？"],
+      "activity": ["我應該如何著手這個任務？", "有哪些建議步驟？"],
+      "discussion": ["可以提供一些思考方向嗎？", "有哪些不同的觀點？"],
+      "break": ["我應該複習什麼？"],
+      "wrapup": ["這堂課的重點是什麼？"]
+    }
+  },
+  "storyNarrator": {
+    "pause": "暫停",
+    "resume": "繼續播放",
+    "playVoice": "播放語音",
+    "continue": "繼續"
+  },
+  "teachingNarrator": {
+    "preparing": "準備中...",
+    "teaching": "教學",
+    "preparingLecture": "林博士正在準備講課...",
+    "generationFailed": "教學內容生成失敗：{error}",
+    "configureKey": "請確認 OPENAI_API_KEY 已正確設定。",
+    "stop": "停止",
+    "playVoice": "播放語音",
+    "story": "故事",
+    "lecture": "講課",
+    "demo": "示範",
+    "activity": "活動",
+    "discussion": "討論",
+    "break": "休息",
+    "wrapup": "總結"
+  },
+  "tutor": {
+    "chatHistory": "聊天紀錄",
+    "newChat": "新對話",
+    "noHistory": "尚無聊天紀錄",
+    "weekLabel": "第",
+    "deleteChat": "刪除對話",
+    "collapseSidebar": "收合側欄",
+    "expandSidebar": "展開側欄",
+    "drLinName": "林博士",
+    "drLinTitle": "財務管理 AI 助教",
+    "welcome": "歡迎來到林博士的辦公室",
+    "welcomeDesc": "有任何關於金融風險、波動率或 AI 在金融中應用的問題，歡迎隨時提問！",
+    "thinking": "林博士正在思考...",
+    "errorMsg": "抱歉，目前無法回答。",
+    "uploadFile": "上傳檔案或圖片",
+    "pasteImage": "貼上圖片（Ctrl+V）",
+    "placeholder": "輸入你的問題...（Enter 送出，Shift+Enter 換行）",
+    "suggestions": {
+      "week1": {
+        "q0": "簡單報酬率和對數報酬率有什麼差別？",
+        "q1": "為什麼常態分配對金融資料不適用？",
+        "q2": "超額峰度代表什麼？"
+      },
+      "week2": {
+        "q0": "EWMA 與簡單移動平均波動率有何不同？",
+        "q1": "什麼是 VIX？它衡量什麼？",
+        "q2": "波動率的典型事實有哪些？"
+      },
+      "week3": {
+        "q0": "什麼是波動率群聚？",
+        "q1": "GARCH(1,1) 如何運作？",
+        "q2": "波動率衝擊的半衰期是什麼？"
+      },
+      "week4": {
+        "q0": "什麼是槓桿效應？",
+        "q1": "GJR-GARCH 如何捕捉不對稱性？",
+        "q2": "什麼是新聞衝擊曲線？"
+      },
+      "week5": {
+        "q0": "如何評估波動率預測？",
+        "q1": "什麼是 Mincer-Zarnowitz 迴歸？",
+        "q2": "何時會使用 QLIKE 而非 RMSE？"
+      },
+      "week6": {
+        "q0": "什麼是風險值（VaR）？",
+        "q1": "蒙地卡羅 VaR 如何運作？",
+        "q2": "VaR 和 CVaR 的差別是什麼？"
+      },
+      "week7": {
+        "q0": "什麼是 Kupiec 檢定？",
+        "q1": "Basel 交通號誌系統如何運作？",
+        "q2": "為什麼回測對風險模型至關重要？"
+      },
+      "week8": {
+        "q0": "機器學習如何改善風險模型？",
+        "q1": "什麼是偏誤-變異權衡？",
+        "q2": "LSTM 網路如何處理時間序列？"
+      }
+    }
+  },
+  "localeSwitcher": {
+    "en": "English",
+    "zh": "繁體中文"
+  }
+}

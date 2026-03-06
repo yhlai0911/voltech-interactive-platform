@@ -1,0 +1,43 @@
+{
+  "name": "interactive-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "build:safe": "cp -a . /tmp/voltech-build && cd /tmp/voltech-build && next build --webpack && cp -a .next /tmp/voltech-build-output && cd - && cp -a /tmp/voltech-build-output .next && rm -rf /tmp/voltech-build /tmp/voltech-build-output",
+    "start": "next start",
+    "lint": "eslint",
+    "postinstall": "bash scripts/patch-edge-tts.sh",
+    "generate-audio": "npx tsx scripts/generate-audio.ts"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "edge-tts-universal": "^1.4.0",
+    "framer-motion": "^12.34.5",
+    "katex": "^0.16.33",
+    "lucide-react": "^0.576.0",
+    "next": "16.1.6",
+    "next-intl": "^4.8.3",
+    "openai": "^6.25.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-markdown": "^10.1.0",
+    "recharts": "^3.7.0",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0",
+    "tailwind-merge": "^3.5.0",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/katex": "^0.16.8",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

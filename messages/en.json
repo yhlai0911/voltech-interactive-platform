@@ -1,0 +1,261 @@
+{
+  "common": {
+    "week": "Week",
+    "previous": "Previous",
+    "next": "Next",
+    "continue": "Continue",
+    "back": "Back",
+    "home": "Home",
+    "loading": "Loading...",
+    "error": "Error"
+  },
+  "nav": {
+    "brand": "VolTech",
+    "subtitle": "Financial Management",
+    "aiTutor": "AI Tutor",
+    "language": "Language"
+  },
+  "home": {
+    "title": "Financial Management",
+    "subtitle": "Volatility, Risk, and AI",
+    "description": "An interactive learning platform for mastering financial risk measurement — from return distributions to machine learning.",
+    "author": "Yi-Hao Lai \u00b7 Da-Yeh University \u00b7 2026 Spring",
+    "meetCharacters": "Meet the Characters",
+    "courseWeeks": "Course Weeks",
+    "courseMaterials": "Course Materials",
+    "downloadDesc": "Download lecture notes and supplementary PDFs",
+    "downloadPDFs": "Download PDFs",
+    "features": {
+      "lessons": {
+        "icon": "\ud83d\udcd6",
+        "title": "Lessons",
+        "desc": "Structured 120-minute teaching flows with story-driven content"
+      },
+      "formulas": {
+        "icon": "\ud83d\udcd0",
+        "title": "Formulas",
+        "desc": "Interactive formula reference with variable explanations"
+      },
+      "quiz": {
+        "icon": "\u2705",
+        "title": "Self-Quiz",
+        "desc": "64 multiple-choice questions with detailed explanations"
+      },
+      "tutor": {
+        "icon": "\ud83e\udd16",
+        "title": "AI Tutor",
+        "desc": "Chat with Dr. Lin for personalized guidance on any topic"
+      }
+    }
+  },
+  "characters": {
+    "drLin": { "name": "Dr. Lin", "role": "Professor", "desc": "Head of quantitative risk" },
+    "alex": { "name": "Alex Chen", "role": "Junior Analyst", "desc": "Eager newcomer at VolTech" },
+    "kenji": { "name": "Kenji", "role": "Risk Manager", "desc": "Pension fund risk expert" },
+    "priya": { "name": "Priya", "role": "Data Scientist", "desc": "ML and statistics specialist" },
+    "david": { "name": "David", "role": "Senior Officer", "desc": "Compliance and strategy" },
+    "narrator": { "name": "Narrator", "role": "", "desc": "Story guide" }
+  },
+  "weeks": {
+    "1": { "title": "Financial Risk and Return Distributions", "subtitle": "Why normal fails" },
+    "2": { "title": "Measuring Volatility", "subtitle": "Many rulers, one truth" },
+    "3": { "title": "Volatility Clustering and GARCH", "subtitle": "Taming the beast" },
+    "4": { "title": "Asymmetric Volatility", "subtitle": "Bad news hits harder" },
+    "5": { "title": "Volatility Forecasting", "subtitle": "The crystal ball" },
+    "6": { "title": "Value-at-Risk", "subtitle": "How much can you lose?" },
+    "7": { "title": "VaR Backtesting", "subtitle": "Trust but verify" },
+    "8": { "title": "AI in Finance", "subtitle": "The final frontier" }
+  },
+  "weekPage": {
+    "notAvailable": "Lesson Not Available",
+    "beingPrepared": "Week {week} interactive lesson is being prepared",
+    "backToHome": "Back to Home",
+    "restart": "Restart this week",
+    "classroomMode": "Classroom Mode: Interactive Teaching with Dr. Lin",
+    "noQuiz": "No quiz questions yet",
+    "quizPreparing": "Quiz questions are being prepared. Please review the lesson content first.",
+    "noTeachingScript": "No teaching script available for this section",
+    "teachingPreparing": "Teaching data is being prepared",
+    "readyForQuiz": "Ready for the quiz?",
+    "quizDesc": "{count} multiple choice questions with shuffled options",
+    "startQuiz": "Start Quiz",
+    "previousSection": "Previous Section",
+    "minutes": "minutes"
+  },
+  "modes": {
+    "self": "Self Study",
+    "class": "Classroom",
+    "quiz": "Quiz"
+  },
+  "classroom": {
+    "moved": "Classroom Mode Has Moved",
+    "movedDesc": "Classroom mode is now integrated into each week's lesson page. Navigate to any week and switch to \"Classroom\" mode using the mode selector.",
+    "goHome": "Go to Home",
+    "lecturing": "Lecturing",
+    "speaking": "Speaking",
+    "narrator": "Narrator",
+    "quickCheck": "Quick Check",
+    "discussion": "Discussion",
+    "visual": "Visual",
+    "theory": "Theory",
+    "teaching": "Teaching",
+    "step": "Step",
+    "correct": "correct",
+    "skipAnimation": "Skip animation",
+    "audioPlaying": "Audio playing",
+    "isLecturing": "Dr. Lin is lecturing...",
+    "isSpeaking": "{name} is speaking...",
+    "lectureComplete": "Lecture complete",
+    "characterFinished": "{name} finished",
+    "awaitingAnswer": "Awaiting answer",
+    "isAsking": "Dr. Lin is asking...",
+    "feedbackInProgress": "Feedback...",
+    "feedbackComplete": "Feedback complete",
+    "discussionInProgress": "Discussion in progress...",
+    "discussionComplete": "Discussion complete",
+    "segmentComplete": "Segment complete",
+    "showingVisual": "Showing visual",
+    "correctAnswer": "Correct!",
+    "notQuiteAnswer": "Not quite",
+    "selectAnswer": "Select an answer to continue",
+    "nextSegment": "Next Segment",
+    "endOfWeek": "End of Week",
+    "timesUp": "Time's up!",
+    "perfectScore": "Perfect score!",
+    "segmentCompleteScore": "Segment complete! {correct}/{total} correct",
+    "excellentUnderstanding": "Excellent understanding of this section",
+    "goodWork": "Good work, keep it up!",
+    "reviewConcepts": "Consider reviewing the key concepts in this section",
+    "back": "Back",
+    "resume": "Resume",
+    "pause": "Pause",
+    "continue": "Continue"
+  },
+  "selfQuiz": {
+    "title": "Week {week} Self Quiz",
+    "quizComplete": "Quiz Complete!",
+    "scoreLabel": "{score} / {total} correct",
+    "reviewSuggested": "Review suggested:",
+    "perfectScore": "Perfect score! You have mastered this week's content!",
+    "retake": "Retake",
+    "backToLesson": "Back to Lesson",
+    "viewResults": "View Results",
+    "unanswered": "{count} unanswered",
+    "correctLabel": "Correct!",
+    "incorrectLabel": "Incorrect."
+  },
+  "extraPractice": {
+    "title": "Extra Practice ({count} questions)",
+    "stats": "{answered}/{total} answered, {correct} correct",
+    "allDone": "All done! Accuracy: {pct}% ({correct}/{total})"
+  },
+  "interactiveQuiz": {
+    "correct": "Correct!",
+    "notQuite": "Not quite --",
+    "continue": "Continue"
+  },
+  "lessonChat": {
+    "aiAssistant": "AI Assistant",
+    "weekSegment": "Week {week} - {segment}",
+    "clearChat": "Clear chat",
+    "askAnything": "Ask me anything about this lesson!",
+    "thinking": "Thinking...",
+    "errorMsg": "Sorry, I could not answer. {error}",
+    "placeholder": "Ask a question... (Enter to send)",
+    "suggestions": {
+      "story": ["How does this story relate to the topic?", "Can you explain the concept mentioned?"],
+      "lecture": ["Can you explain that more simply?", "Can you give a real-world example?", "How is this formula derived?"],
+      "demo": ["What does this visualization show?", "How should I interpret the results?"],
+      "activity": ["How should I approach this task?", "What are the recommended steps?"],
+      "discussion": ["Can you give me some thinking directions?", "What are the different perspectives?"],
+      "break": ["What should I review?"],
+      "wrapup": ["What are the key takeaways?"]
+    }
+  },
+  "storyNarrator": {
+    "pause": "Pause",
+    "resume": "Resume",
+    "playVoice": "Play voice",
+    "continue": "Continue"
+  },
+  "teachingNarrator": {
+    "preparing": "Preparing...",
+    "teaching": "Teaching",
+    "preparingLecture": "Dr. Lin is preparing the lecture...",
+    "generationFailed": "Teaching content generation failed: {error}",
+    "configureKey": "Please ensure OPENAI_API_KEY is properly configured.",
+    "stop": "Stop",
+    "playVoice": "Play Voice",
+    "story": "Story",
+    "lecture": "Lecture",
+    "demo": "Demo",
+    "activity": "Activity",
+    "discussion": "Discussion",
+    "break": "Break",
+    "wrapup": "Wrap Up"
+  },
+  "tutor": {
+    "chatHistory": "Chat History",
+    "newChat": "New chat",
+    "noHistory": "No chat history yet",
+    "weekLabel": "Week",
+    "deleteChat": "Delete chat",
+    "collapseSidebar": "Collapse sidebar",
+    "expandSidebar": "Expand sidebar",
+    "drLinName": "Dr. Lin",
+    "drLinTitle": "Financial Management AI Tutor",
+    "welcome": "Welcome to Dr. Lin's Office",
+    "welcomeDesc": "Ask me anything about financial risk, volatility, or AI in finance!",
+    "thinking": "Dr. Lin is thinking...",
+    "errorMsg": "Sorry, I cannot answer right now.",
+    "uploadFile": "Upload file or image",
+    "pasteImage": "Paste image (Ctrl+V)",
+    "placeholder": "Ask your question... (Enter to send, Shift+Enter for new line)",
+    "suggestions": {
+      "week1": {
+        "q0": "What is the difference between simple and log returns?",
+        "q1": "Why does the normal distribution fail for financial data?",
+        "q2": "What does excess kurtosis tell us?"
+      },
+      "week2": {
+        "q0": "How does EWMA differ from simple moving average volatility?",
+        "q1": "What is the VIX and what does it measure?",
+        "q2": "What are the stylized facts of volatility?"
+      },
+      "week3": {
+        "q0": "What is volatility clustering?",
+        "q1": "How does GARCH(1,1) work?",
+        "q2": "What is the half-life of volatility shocks?"
+      },
+      "week4": {
+        "q0": "What is the leverage effect?",
+        "q1": "How does GJR-GARCH capture asymmetry?",
+        "q2": "What is a news impact curve?"
+      },
+      "week5": {
+        "q0": "How do we evaluate volatility forecasts?",
+        "q1": "What is the Mincer-Zarnowitz regression?",
+        "q2": "When would you use QLIKE over RMSE?"
+      },
+      "week6": {
+        "q0": "What is Value-at-Risk (VaR)?",
+        "q1": "How does Monte Carlo VaR work?",
+        "q2": "What is the difference between VaR and CVaR?"
+      },
+      "week7": {
+        "q0": "What is the Kupiec test for VaR?",
+        "q1": "How does the Basel traffic light system work?",
+        "q2": "Why is backtesting essential for risk models?"
+      },
+      "week8": {
+        "q0": "How can machine learning improve risk models?",
+        "q1": "What is the bias-variance tradeoff?",
+        "q2": "How do LSTM networks handle time series?"
+      }
+    }
+  },
+  "localeSwitcher": {
+    "en": "English",
+    "zh": "繁體中文"
+  }
+}
