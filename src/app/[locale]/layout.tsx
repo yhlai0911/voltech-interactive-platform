@@ -17,6 +17,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const UMAMI_SCRIPT_URL =
+  process.env.NEXT_PUBLIC_UMAMI_SCRIPT_URL ??
+  "https://ivan-umami.zeabur.app/stats.js";
+const UMAMI_WEBSITE_ID =
+  process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID ??
+  "69626517-f97e-41f6-ae60-573db889ccc3";
+
 export const metadata: Metadata = {
   title: "Financial Management: Volatility, Risk, and AI",
   description:
@@ -40,6 +47,11 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        {UMAMI_SCRIPT_URL && UMAMI_WEBSITE_ID ? (
+          <script defer src={UMAMI_SCRIPT_URL} data-website-id={UMAMI_WEBSITE_ID} />
+        ) : null}
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50`}
       >
