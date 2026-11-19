@@ -1,9 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
+import { guardAiRequest } from "@/lib/ai-guard";
 import OpenAI from "openai";
 
 const LESSON_ASSISTANT_SYSTEM = `You are Dr. Lin's AI teaching assistant for the Financial Management: Volatility, Risk, and AI course. You are in lesson-page assistant mode. Only answer questions within this week's scope. Keep answers under 200 words. Reply in English. Use Markdown for formatting.`;
 
 export async function POST(request: NextRequest) {
+  const blocked = await guardAiRequest(request, "lesson-chat");
+  if (blocked) return blocked;
+
   try {
     const { messages, weekNum, lessonContext } = (await request.json()) as {
       messages: { role: string; content: string }[];

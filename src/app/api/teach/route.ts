@@ -1,8 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
+import { guardAiRequest } from "@/lib/ai-guard";
 import { createTeachingStream } from "@/lib/teach-engine";
 import type { TeachingStep } from "@/types";
 
 export async function POST(request: NextRequest) {
+  const blocked = await guardAiRequest(request, "teach");
+  if (blocked) return blocked;
+
   try {
     const { step, weekNum, stepIndex } = (await request.json()) as {
       step: TeachingStep;

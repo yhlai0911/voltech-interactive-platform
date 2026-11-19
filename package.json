@@ -8,6 +8,7 @@
     "build:safe": "cp -a . /tmp/voltech-build && cd /tmp/voltech-build && next build --webpack && cp -a .next /tmp/voltech-build-output && cd - && cp -a /tmp/voltech-build-output .next && rm -rf /tmp/voltech-build /tmp/voltech-build-output",
     "start": "next start",
     "lint": "eslint",
+    "test": "node --test tests/ai-guard.test.mjs",
     "postinstall": "bash scripts/patch-edge-tts.sh",
     "generate-audio": "npx tsx scripts/generate-audio.ts"
   },
